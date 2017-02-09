@@ -1,0 +1,45 @@
+//-------------------------
+//----------------VARIABLES
+//-------------------------
+
+//-----COLORS
+$colorWhite: #FFF;
+$colorBlack: #222222;
+$colorRed  : #F00;
+$colorGreen: #0F0;
+$colorBlue : #00F;
+$colorLightDark: #444444;
+$colorPink : #f03d65;
+$colorBorder: #f6f6f6;
+$colorAboutNumber: #f5f5f5;
+$colorGray: #bfbfc4;
+$colorYellow: #ffbf00;
+$colorMain : $colorWhite;
+
+
+//------DIMENSIONS
+$baseFontSize: 10;
+
+$largeImageFlagWidth: 50%;
+
+
+//------MEDIA QUERIES
+$mobile--small   : 480px;
+$tablet          : 768px;
+$desktop         : 1025px;
+$desktop--large  : 1600px;
+
+$toPhone--small  : 479px;
+$toTablet        : 767px;
+$toDesktop       : 1024px;
+$toDesktop--large: 1599px;
+
+
+//------FONTS
+$fontDefault     : Helvetica, sans-serif;
+
+
+//------Z INDEX LEVELS
+$levelBottom: 1;
+$levelMiddle: 2;
+$levelTop   : 3;

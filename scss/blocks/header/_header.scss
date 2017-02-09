@@ -1,0 +1,65 @@
+//-------------------------
+//-------------------HEADER
+//-------------------------
+header {
+  font-size: 0;
+  padding: 2rem 0;
+  position: relative;
+  .logo,
+  .navigation,
+  .contact{
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1.6rem;
+  }
+  .logo{
+    width: 22.742%;
+    padding-left: 70px;
+
+  }
+  .contact{
+    width: 18.952%;
+    background-color: $colorYellow;
+    text-align: center;
+    vertical-align: top;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    right: 0;
+    padding: 3rem 0;
+    a{
+      color: $colorBlack;
+      display: block;
+      font-size: 28.13px;
+      font-size: 1.75vw;
+      font-weight: bold;
+      text-transform: uppercase;
+    }
+  }
+  .navigation{
+    width: 58.306%;
+    text-align: right;
+    ul{
+      padding-right: 6.5%;
+      li{
+        display: inline-block;
+        text-transform: uppercase;
+        padding-left: 4.5%;
+        a{
+          font-weight: bold;
+          font-size: 19px;
+          font-size: 1.19vw;
+          color: $colorBlack;
+        }
+      }
+    }
+  }
+}
+.homeSlider{
+  &:after{
+    background: $colorYellow;
+    content: '';
+    display: block;
+    height: 100px;
+  }
+}

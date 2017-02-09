@@ -1,0 +1,302 @@
+/*------------------------------------------------------------------------------
+*    CSS Document (http://www.w3.org/Style/CSS/)
+*    For STYLEGUIDE, reffer to /config/_styleguide.scss
+-----------------------------------------------------------------------------*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline; }
+
+html {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle; }
+
+q, blockquote {
+  quotes: none; }
+
+q:before, q:after,
+blockquote:before, blockquote:after {
+  content: "";
+  content: none; }
+
+a img {
+  border: none; }
+
+article, aside, details,
+figcaption, figure, footer,
+header, hgroup, main,
+menu, nav, section,
+summary {
+  display: block; }
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0; }
+
+::selection {
+  color: #FFF;
+  background-color: #484848; }
+
+::-moz-selection {
+  color: #FFF;
+  background-color: #484848; }
+
+::-webkit-selection {
+  color: #FFF;
+  background-color: #484848; }
+
+html {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-family: Helvetica, sans-serif; }
+
+.innerWrapper {
+  max-width: 965px;
+  margin: 0 auto;
+  position: relative; }
+
+img {
+  display: inline-block;
+  width: 100%; }
+
+a {
+  outline: none;
+  text-decoration: none; }
+
+html {
+  -webkit-font-smoothing: antialiased; }
+
+input,
+textarea,
+select {
+  box-sizing: inherit; }
+
+input[type="search"] {
+  -webkit-appearance: textfield !important; }
+
+input[type="search"]::-webkit-search-cancel-button {
+  display: none; }
+
+.clear {
+  clear: both; }
+
+.hide {
+  display: none; }
+
+.block {
+  display: block; }
+
+.inline-block {
+  display: inline-block; }
+
+.fleft {
+  float: left; }
+
+.fright {
+  float: right; }
+
+.fixed {
+  position: fixed; }
+
+.relative {
+  position: relative; }
+
+.absolute {
+  position: absolute; }
+
+.vertical-top {
+  vertical-align: top; }
+
+.vertical-middle {
+  vertical-align: middle; }
+
+.table {
+  display: table; }
+
+.table-row {
+  display: table-row; }
+
+.table-cell {
+  display: table-cell; }
+
+.uppercase {
+  text-transform: uppercase; }
+
+.lowercase {
+  text-transform: lowercase; }
+
+.capitalize {
+  text-transform: capitalize; }
+
+header {
+  font-size: 0;
+  padding: 2rem 0;
+  position: relative; }
+  header .logo,
+  header .navigation,
+  header .contact {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 1.6rem; }
+  header .logo {
+    width: 22.742%;
+    padding-left: 70px; }
+  header .contact {
+    width: 18.952%;
+    background-color: #ffbf00;
+    text-align: center;
+    vertical-align: top;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    padding: 3rem 0; }
+    header .contact a {
+      color: #222222;
+      display: block;
+      font-size: 28.13px;
+      font-size: 1.75vw;
+      font-weight: bold;
+      text-transform: uppercase; }
+  header .navigation {
+    width: 58.306%;
+    text-align: right; }
+    header .navigation ul {
+      padding-right: 6.5%; }
+      header .navigation ul li {
+        display: inline-block;
+        text-transform: uppercase;
+        padding-left: 4.5%; }
+        header .navigation ul li a {
+          font-weight: bold;
+          font-size: 19px;
+          font-size: 1.19vw;
+          color: #222222; }
+
+.homeSlider:after {
+  background: #ffbf00;
+  content: '';
+  display: block;
+  height: 100px; }
+
+.content {
+  padding: 100px 20%;
+  text-align: center; }
+  .content h1, .content h2 {
+    font-size: 70px;
+    color: #444444;
+    text-transform: uppercase;
+    font-weight: bold; }
+  .content h2 {
+    color: #bfbfc4;
+    margin-top: 20px; }
+  .content span {
+    color: #bfbfc4; }
+  .content p {
+    margin-top: 70px;
+    font-size: 22px;
+    color: #444444;
+    line-height: 25px;
+    font-weight: normal; }
+  .content a {
+    background-color: #ffbf00;
+    display: block;
+    width: 260px;
+    margin: 70px auto;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #222222;
+    padding: 20px 20px;
+    font-weight: bold; }
+
+.readMore {
+  font-size: 0; }
+  .readMore-item {
+    width: 33.33%;
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+    position: relative; }
+    .readMore-item-text {
+      position: absolute;
+      bottom: 40px;
+      left: 30%;
+      font-size: 35px;
+      display: block;
+      text-transform: uppercase;
+      color: #FFF;
+      font-weight: bold;
+      text-shadow: 2px 2px #222222; }
+
+footer {
+  background-color: #444444;
+  font-size: 0;
+  padding: 62px 0;
+  padding-bottom: 80px; }
+  footer .footer__item {
+    display: inline-block;
+    font-size: 16px;
+    width: 33.33%;
+    vertical-align: top;
+    position: relative;
+    text-align: center;
+    color: #FFF;
+    font-size: 22px; }
+    footer .footer__item:nth-child(1):after {
+      bottom: -42px; }
+    footer .footer__item:nth-child(2) {
+      padding: 0 20px; }
+      footer .footer__item:nth-child(2):after {
+        left: 40px;
+        right: 40px;
+        width: auto; }
+    footer .footer__item:after {
+      position: absolute;
+      bottom: -20px;
+      left: 0;
+      content: '';
+      height: 3px;
+      width: 100%;
+      background-color: #FFF; }
+    footer .footer__item-noLine {
+      width: 50%;
+      line-height: 40px; }
+      footer .footer__item-noLine img {
+        width: 20%; }
+      footer .footer__item-noLine:after {
+        display: none; }
+
+.footer-bottom {
+  margin-top: 60px;
+  margin-left: 33.33%; }
+
+/*# sourceMappingURL=style.css.map */

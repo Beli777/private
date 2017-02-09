@@ -1,0 +1,56 @@
+.content{
+  padding: 100px 20%;
+  text-align: center;
+  h1,h2{
+    font-size: 70px;
+    color: $colorLightDark;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  h2{
+    color: $colorGray;
+    margin-top: 20px;
+  }
+  span{
+    color: $colorGray;
+  }
+  p{
+    margin-top: 70px;
+    font-size: 22px;
+    color: $colorLightDark;
+    line-height: 25px;
+    font-weight: normal;
+  }
+  a{
+    background-color: $colorYellow;
+    display: block;
+    width: 260px;
+    margin: 70px auto;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: $colorBlack;
+    padding: 20px 20px;
+    font-weight: bold;
+  }
+}
+.readMore{
+  font-size: 0;
+  &-item{
+    width: 33.33%;
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+    position: relative;
+    &-text{
+      position: absolute;
+      bottom: 40px;
+      left: 30%;
+      font-size: 35px;
+      display: block;
+      text-transform: uppercase;
+      color: $colorWhite;
+      font-weight: bold;
+      text-shadow: 2px 2px $colorBlack;
+    }
+  }
+}
