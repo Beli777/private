@@ -15,6 +15,10 @@ header {
   .logo{
     width: 22.742%;
     padding-left: 70px;
+    @include breakpoint (toDesktop){
+      width: 200px;
+      padding-left: 20px;
+    }
 
   }
   .contact{
@@ -27,6 +31,9 @@ header {
     bottom: 0;
     right: 0;
     padding: 3rem 0;
+    @include breakpoint (toDesktop){
+      display: none;
+    }
     a{
       color: $colorBlack;
       display: block;
@@ -36,26 +43,78 @@ header {
       text-transform: uppercase;
     }
   }
+  .menu-mobile{
+    display: none;
+    @include breakpoint (toDesktop){
+      display: block;
+      float: right;
+      position: absolute;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      cursor: pointer;
+      img{
+        width: 80px;
+        height: 100%;
+      }
+    }
+    &-close{
+      display: none;
+      right: 15px;
+      top: 25px;
+      img{
+        height: 50px;
+        width: 50px;
+      }
+    }
+  }
   .navigation{
     width: 58.306%;
     text-align: right;
+    @include breakpoint (toDesktop){
+      display: none;
+      position: absolute;
+      top: 103px;
+      left: 0;
+      right: 0;
+      width: 100%;
+      background-color: $colorLightDark;
+      text-align: center;
+      z-index: 10;
+    }
     ul{
       padding-right: 6.5%;
+      @include breakpoint (toDesktop){
+        padding-right: 0;
+      }
       li{
         display: inline-block;
         text-transform: uppercase;
         padding-left: 4.5%;
+        @include breakpoint (toDesktop){
+          display: block;
+          padding-left: 0;
+          padding: 20px 0;
+        }
         a{
           font-weight: bold;
           font-size: 19px;
           font-size: 1.19vw;
           color: $colorBlack;
+          @media screen and (min-width: 1600px){
+            font-size: 19px;
+          }
+          @include breakpoint (toDesktop){
+            font-size: 19px;
+            color: $colorWhite;
+          }
         }
       }
     }
   }
 }
 .homeSlider{
+  position: relative;
   &:after{
     background: $colorYellow;
     content: '';

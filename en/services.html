@@ -1,0 +1,182 @@
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/css" charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link href="../css/slick-theme.css" rel="stylesheet" type="text/css" />
+    <link href="../css/style.css" rel="stylesheet" type="text/css" />
+    <link href="../css/animate.css" rel="stylesheet" type="text/css" />
+    <script src="../js/jquery-3.1.1.min.js"></script>
+    <script src="../js/jquery.waypoints.js"></script>
+    <script src="../js/main.js"></script>
+    <script src="../js/readmore.min.js"></script>
+
+    <title>Status Automation</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+          <a href="index.html"><img class='animated zoomIn' src="../img/logo.png" alt="Status Automation"/></a>
+      </div>
+      <div class="menu-mobile">
+        <img src='../img/menu.png'/>
+      </div>
+      <div class="menu-mobile menu-mobile-close">
+        <img src='../img/menu-close.png'/>
+      </div>
+      <div class="navigation">
+        <ul class='animated fadeIn'>
+          <li><a href="about.html">About us</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="references.html">References</a></li>
+          <li><a href="spare.html">Spare parts</a></li>
+            <li><a class="mobile" href="contact.html">Contact</a></li>
+          <li><a href="../services.html">Svenska</a></li>
+        </ul>
+      </div>
+      <div class='contact animated fadeIn'>
+        <a href="contact.html">Contact</a>
+      </div>
+    </header>
+    <div class="homeSlider">
+      <div class="slider__item"><img src="../img/1.png" /></div>
+      <div class="slider__item"><img src="../img/2.png" /></div>
+      <div class="slider__item"><img src="../img/3.png" /></div>
+    </div>
+
+
+    <div class="content">
+      <h1 class="references__title">our <span>Services</span></h1>
+      <div class="content__services">
+        <div class="content__servicesItem">
+          <div class="content__servicesItem-text">
+            <h2>Robots</h2>
+            <img src="../img/user.png"/>
+            <article class="readmore">
+            <p>We are a company with many years with experience of
+robot applications in industry. When Staus
+Automation get to influence the choice of robot chosen
+preferably robot from Fanuc, Kuka and ABB,
+it’s where our knowledge is the greatest.
+Regarding surrounding equipment such as grippers pedestal, etc.
+we uses one well-chosen supplier that is specialized
+in just that field.
+<br><br>
+Out of us, you get a complete thought
+State solution for your production!</p>
+          </article>
+          </div>
+        </div>
+        <div class="content__servicesItem">
+          <div class="content__servicesItem-text">
+            <h2>PLC HMI SCADA</h2>
+            <img src="../img/user.png"/>
+            <article class="readmore-2">
+              <p>We develop the best solutions based on the customer
+requirements together with many years of experience in
+automation. Solutions range from small
+PLC controllers to large PLC projects that controls everything
+from processes and entire production lines.
+<br><br>
+What we offer our customers expertise in:
+<br><br>
+• PLC / HMI programming, including systems,<br>
+  Siemens, Mitsubishi, Rockwell, Bosch Rexroth.<br>
+• Safety PLC with Siemens, ABB Pluto,<br>
+  Pilz and Mitsubishi.<br>
+• High-Level Programming In the PC environment, such as VB, C# etc.<br><br>
+
+Often includes SQL databases, OPC connection and communication
+with business-system in our PLC systems.
+We solve all according to customer requirements.
+</p>
+</article>
+          </div>
+        </div>
+        <div class="content__servicesItem">
+          <div class="content__servicesItem-text">
+            <h2>Electrical design</h2>
+            <img src="../img/user.png"/>
+            <article class="readmore-3">
+            <p>We offer everything from electrical design to finished cabinets.
+We work with them CAD tools with them latest technology.
+We have a well-selected subcontractor that we cooperate with the
+engineering and construction of control cabinets.
+</p>
+</article>
+          </div>
+        </div>
+        <div class="content__servicesItem">
+          <div class="content__servicesItem-text">
+            <h2>vision</h2>
+            <img src="../img/user.png"/>
+            <article class="readmore-4">
+              <p>We work with vision in a variety of areas.
+Everything from checking after processing to clean
+production control or for example 2D/Barcode controll
+for etc ISO standards.
+<br><br>
+We help to choose the technology that live the buyers
+with the best solution. It may be easier variance
+marketers for exempel “Cognex Checkers” to “Cognex Smart Cameras”
+<br><br>
+We are able to do feasibility studies for your
+particular desires in our lab,
+where we have many varieties of cameror and lighting for
+be able to obtain them perfect relationships for inspecting.
+<br><br>
+Vision systems are ideal for such produce coordinates
+for control system or robots.
+<br><br>
+We work with Cognex and Datalogic.
+</p>
+</article>
+          </div>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <div class="footer__item"></div>
+      <div class="footer__item">Status Automation AB</div>
+      <div class="footer__item">Visit us on Linkedin</div>
+
+      <div class="footer-bottom">
+        <div class="footer__item footer__item-noLine">Olof Asklunds gata 18 * 421 30 Västra Frölunda <br>
+Phone +46 31 7574900​<br>
+info@statusab.se​
+</div>
+        <div class="footer__item footer__item-noLine"><img src="../img/linkedin.png"/></div>
+    </div>
+    </footer>
+  </body>
+  <script type="text/javascript" src="../js/slick.min.js"></script>
+  <script type="text/javascript">
+  $(document).ready(function(){
+    $('.homeSlider').slick({
+    arrows: true,
+    infinite: true,
+    speed: 300,
+    slidesToShow: 1
+   });
+ });
+  $('.readmore').readmore({
+  speed: 75,
+  collapsedHeight: 195,
+  lessLink: '<a href="#">Read less</a>'
+});
+$('.readmore-2').readmore({
+speed: 75,
+collapsedHeight: 195,
+lessLink: '<a href="#">Read less</a>'
+});
+$('.readmore-3').readmore({
+speed: 75,
+collapsedHeight: 195,
+lessLink: '<a href="#">Read less</a>'
+});
+$('.readmore-4').readmore({
+speed: 75,
+collapsedHeight: 195,
+lessLink: '<a href="#">Read less</a>'
+});
+  </script>
+</html>

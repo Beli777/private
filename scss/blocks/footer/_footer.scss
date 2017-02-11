@@ -16,6 +16,14 @@ footer {
         text-align: center;
         color: $colorWhite;
         font-size: 22px;
+        @include breakpoint (toDesktop){
+          display: block;
+          width: 100%;
+          line-height: 35px;
+          &:after{
+            display: none;
+          }
+        }
         &:nth-child(1){
           &:after{
               bottom: -42px;
@@ -41,6 +49,9 @@ footer {
         &-noLine{
           width: 50%;
           line-height: 40px;
+          @include breakpoint (toDesktop){
+            width: 100%;
+          }
           img{
             width: 20%;
           }
@@ -54,4 +65,9 @@ footer {
 .footer-bottom{
   margin-top: 60px;
   margin-left: 33.33%;
+  @include breakpoint (toDesktop){
+    width: 100%;
+    display: block;
+    margin: 0;
+  }
 }
